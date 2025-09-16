@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* UserProfile Component Styles */
+.profile-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.profile-card:hover {
+  transform: scale(1.02);
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid #e0b084;
+}
+
+.profile-card h2 {
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.profile-card p {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+.profile-card .bio {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #777;
+}
