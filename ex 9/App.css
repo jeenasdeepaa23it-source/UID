@@ -1,0 +1,75 @@
+/* Container */
+.app-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+/* Input + Button */
+.input-box {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.add-btn {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Dropdown */
+.priority-select {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+/* Task List */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.task-item {
+  margin: 10px 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-text {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.task-completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Priority colors */
+.high {
+  color: red;
+}
+.medium {
+  color: orange;
+}
+.low {
+  color: green;
+}
+
+/* Delete button */
+.delete-btn {
+  margin-left: 10px;
+  padding: 5px 8px;
+  border: none;
+  background: #f8d7da;
+  color: #721c24;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #f5c6cb;
+}
